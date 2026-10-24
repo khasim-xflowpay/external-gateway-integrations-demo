@@ -1,0 +1,7 @@
+{
+  "rewrites": [
+    { "source": "/create-checkout-session", "destination": "/api/create-checkout-session" },
+    { "source": "/session-status", "destination": "/api/session-status" },
+    { "source": "/((?!api/).*)", "destination": "/index.html" }
+  ]
+}
